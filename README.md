@@ -3,7 +3,7 @@
 the Binaries vs. Showtime
 
 
-## Score (actual match)
+## Score (current match)
 
 | the Binaries | Showtime |
 |-------------:|----------|
@@ -13,7 +13,7 @@ the Binaries vs. Showtime
 | 3            | 3        |
 
 
-## Matches
+## Match History
 
 1. the Binaries (**10**) vs. (**8**) Showtime
 
