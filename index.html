@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Scoreboard</title>
+    <meta charset="UTF8"/>
+    <meta name="viewport" content="initial-scale=1,user-scalable=no,maximum-scale=1,width=device-width,height=device-height">
+    <style>
+      /* anton-regular - latin */
+      @font-face {
+      font-family: 'Anton';
+      font-style: normal;
+      font-weight: 400;
+      src: url('fonts/anton-v9-latin-regular.eot');
+      src: local('Anton Regular'), local('Anton-Regular'),
+        url('fonts/anton-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/anton-v9-latin-regular.woff2') format('woff2'),
+        url('fonts/anton-v9-latin-regular.woff') format('woff'),
+        url('fonts/anton-v9-latin-regular.ttf') format('truetype'),
+        url('fonts/anton-v9-latin-regular.svg#Anton') format('svg');
+      }
+      /* roboto-condensed-regular - latin */
+      @font-face {
+      font-family: 'Roboto Condensed';
+      font-style: normal;
+      font-weight: 400;
+      src: url('fonts/roboto-condensed-v16-latin-regular.eot');
+      src: local('Roboto Condensed'), local('RobotoCondensed-Regular'),
+        url('fonts/roboto-condensed-v16-latin-regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/roboto-condensed-v16-latin-regular.woff2') format('woff2'),
+        url('fonts/roboto-condensed-v16-latin-regular.woff') format('woff'),
+        url('fonts/roboto-condensed-v16-latin-regular.ttf') format('truetype'),
+        url('fonts/roboto-condensed-v16-latin-regular.svg#RobotoCondensed') format('svg');
+      }
+      body {
+        margin: 0;
+        padding: 0;
+        color: #fefefe;
+        background-color: #121212;
+        font-family: 'Roboto Condensed';
+      }
+      h1, h2, p {
+        margin: 0;
+        padding: 0;
+      }
+      header, footer, section {
+        padding: 5% 10%;
+      }
+      header {
+        background-color: #121212;
+      }
+      header h1 {
+        font-size: 3vw;
+      }
+      header h2 {
+        font-size: 2vw;
+      }
+      
+      footer p {
+        background-color: #121212;
+        display: inline-block;
+        padding: 4px 10px;
+        font-size: 14px;
+      }
+      .grid {
+        overflow: hidden;
+      }
+      .grid__half {
+        display: inline-block;
+        padding: 20% 10%;
+        width: 80%;
+      }
+      @media only screen and (min-width: 641px) {
+        .grid__half {
+          padding: 0;
+          width: 50%;
+        }
+      }
+      .team {}
+      .team--binaries {}
+      .team--showtime {}
+      .team__name {
+        font-size: 4vw;
+      }
+      .team__logo {}
+      .team__score {
+        font-family: 'Anton';
+        font-size: 12vw;
+      }
+      .align-right {
+        text-align: right;
+      }
+      .align-center {
+        text-align: center;
+      }
+      @media only screen and (min-width: 641px) {
+        body {
+          background: linear-gradient(-90deg, #c7000f 0%, #c7000f 50%, #1501b6 50%, #1501b6 100%);
+        }
+        footer {
+          position: absolute;
+          left: 50%;
+          bottom: 0;
+          transform: translateX(-50%);
+        }
+      }
+      @media only screen and (max-width: 640px) {
+        section {
+          padding: 5% 0;
+        }
+        footer {
+          background-color: #121212;
+        }
+        * {
+          text-align: center !important;
+        }
+        .team--binaries {
+          background-color: #1501b6;
+        }
+        .team--showtime {
+          background-color: #c7000f;
+        }
+      }
+      header .grid_header{
+         
+         width: 100%;
+         padding: 0;
+         font-family: 'Anton';
+         font-size: 8vw;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1 class="align-center">Scoreboard</h1>
+      <h2 class="align-center">race to 10</h2>
+    </header>
+    
+    <section class="grid">
+      <div class="grid__half team team--binaries">
+        <p class="team__name">binaries</p>
+        <p class="team__score">3</p>
+      </div><div class="grid__half team team--showtime">
+        <p class="team__name align-right">showtime</p>
+        <p class="team__score align-right">3</p>
+      </div>
+    </section>
+    <footer class="align-center">
+      <p>winning team gets a full burgermenu at <a href="https://www.facebook.com/burgeria.aachen" target="_blank">Burgeria</a> payed by loosing team.</p>
+    </footer>
+  </body>
+</html>
