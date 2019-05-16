@@ -18,4 +18,4 @@ the Binaries vs. Showtime
 
 ## WebBoard
 
-visit us on: [webboard](http://colin-online.de/binaryshowtime/)
+visit us on: [webboard](https://georgmeyer23.github.io/scoreboard/)
