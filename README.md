@@ -7,6 +7,15 @@ the Binaries vs. Showtime
 
 | the Binaries | Showtime  | Date     | Location |
 |-------------:|-----------|----------|:--------:|
+| 0            | 0         | 05.11.19 |LF        |
+
+
+## Match History
+
+1. the Binaries (**10**) vs. (**8**) Showtime
+
+| the Binaries | Showtime  | Date     | Location |
+|-------------:|-----------|----------|:--------:|
 | 0            | 2         | 30.04.19 |DT        |
 | 1            | 3         | 07.05.19 |LH        |
 | 3            | 3         | 15.05.19 |DT        |
@@ -14,13 +23,8 @@ the Binaries vs. Showtime
 | 4            | 6         | 17.06.19 |DT        |
 | 4            | 7         | 16.07.19 |LH        |
 | 4            | 8         | 06.08.19 |LH        |
-| 9            | 5         | 12.08.19 |DT        |
-| 10           | 6         | 27.08.19 |LH        |
-
-
-## Match History
-
-1. the Binaries (**10**) vs. (**8**) Showtime
+| 9            | 8         | 12.08.19 |DT        |
+| 10           | 8         | 27.08.19 |LH        |
 
 2. the Binaries (**6**) vs. (**10**) Showtime
 
