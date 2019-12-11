@@ -8,6 +8,7 @@ the Binaries vs. Showtime
 | the Binaries | Showtime  | Date     | Location |
 |-------------:|-----------|----------|:--------:|
 | 2            | 0         | 05.11.19 |LH        |
+| 2            | 0         | 17.12.19 |DT        | up next...
 
 
 ## Match History
