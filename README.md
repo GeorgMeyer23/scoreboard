@@ -12,6 +12,7 @@ the Binaries vs. Showtime
 | 3            | 2         | 14.01.19 |LH        | 
 | 4            | 3         | 16.07.20 |LH        |
 | 5            | 4         | 18.06.24 |DT        |
+| 5            | 6         | 06.02.25 |DT        |
 
 
 ## Match History
